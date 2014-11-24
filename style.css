@@ -1,0 +1,28 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	background-color: #f8f8f8;
+	color: #212121;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.wrapper {
+	margin: auto;
+	position: absolute;
+	top:0;right:0;bottom:0;left:0;
+	width: 532px;
+	height: 88px;
+}
